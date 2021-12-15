@@ -4,8 +4,11 @@ import './css/main.css'
 import './css/modal.css'
 import './css/records.css'
 
+
 function App() {
   const [modal, setModal] = useState('modal')
+
+  
   
   
   return (
@@ -35,10 +38,10 @@ function App() {
             
             </header>
             <form>
-              <input id="nome" type="text" data-index="new" class="modal-field" placeholder="Nome do Cliente" required></input>
-              <input id="email" type="email" class="modal-field" placeholder="e-mail do Cliente" required></input>
-              <input id="celular" type="text" class="modal-field" placeholder="Celular do Cliente" required></input>
-              <input id="cidade" type="text" class="modal-field" placeholder="Cidade do Cliente" required></input>
+              <input id="nome" type="text" data-index="new" className="modal-field" placeholder="Nome do Cliente" required></input>
+              <input id="email" type="email" className="modal-field" placeholder="e-mail do Cliente" required></input>
+              <input id="celular" type="text" className="modal-field" placeholder="Celular do Cliente" required></input>
+              <input id="cidade" type="text" className="modal-field" placeholder="Cidade do Cliente" required></input>
             </form>
 
             <footer className='modal-footer'>
