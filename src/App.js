@@ -41,7 +41,9 @@ function App() {
               <input id="cidade" type="text" class="modal-field" placeholder="Cidade do Cliente" required></input>
             </form>
 
-            <footer>
+            <footer className='modal-footer'>
+              <button id="save" className='button green'>Salvar</button>
+              <button id="cancel" className='button blue'>Cancelar</button>
 
             </footer>
           </div>
